@@ -1,0 +1,73 @@
+#catcherBox {
+    font-size: 14px;
+    padding: 20px;
+    background: #bbb4aa;
+    color: #fdfdfd;
+    border-radius: 1em;
+    width: 300px;
+  
+    transition: top 300ms;
+    -webkit-transition: top 300ms;
+    -moz-transition: top 300ms;
+    -o-transition: top 300ms;
+    -ms-transition: top 300ms;
+}
+
+#simple_catcher {
+    background-color: #d3a05f;
+    color: #070707;
+    margin-top:5px;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+#timing_catcher {
+    background-color: #d9ac73;
+    color: #070707;
+    margin-top:5px;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+#timestamp_box {
+    background-color: #deb887;
+    color: #070707;
+    margin-top:5px;
+    padding: 20px;
+    border-radius: 1em;
+    width: -webkit-fill-available;
+    border-radius: 0.6em;
+}
+
+#ping_box {
+    background-color: #e4c49b;
+    color: #070707;
+    margin-top:5px;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+#catcherBox input {
+    width: -webkit-fill-available;
+    border-radius: 0.6em;
+}
+#catcherBox button {
+    width: -webkit-fill-available;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top:5px;
+    font-weight: 400;
+    color: #070707;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}

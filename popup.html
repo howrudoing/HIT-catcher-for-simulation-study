@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Extension</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div id="catcherBox">
+            <div id="display_current_timestamp">
+                
+            </div>
+            <div id="simple_catcher">
+                <input id="project_id" placeholder="Project ID">
+                
+                <button id="send_acceptance_request">
+                    Accept Now
+                </button>
+            </div>
+            <div id="timing_catcher">
+                <input id="timing_project_id" placeholder="Project ID">
+                <input id="scheduled_time" placeholder="scheduled time">
+                <input id="catcher_frequency" placeholder="frequency, 1000ms by default">
+                <button id="start_timer">
+                    Catch Once at Scheduled Time
+                </button>
+                <button id="start_loop">
+                    Start Request Loop
+                </button>
+                <button id="stop_loop">
+                    Stop Request Loop
+                </button>
+                <button id="download_csv">
+                    DOWNLOAD
+                </button>
+            </div>  
+            <div id="timestamp_box">
+                <!-- <button id="get_current_timestamp" style="visibility:hidden;">get current timestamp</button> -->
+                <div id="display_current_timestamp_2"></div>
+                <button id="auto_refresh_current_tab">Start Refresher</button>
+                <button id="stop_auto_refresher">Stop Refresher</button>
+                <button id="download_refresher_log_to_csv">Download Refresher Log</button>
+            </div>
+            <div id="ping_box">
+                <button id="run_ping_test">Ping</button>
+                <button id="download_ping_log_to_csv">Download Ping Log</button>
+            </div>
+        </div>
+    </body>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/ping.min.js"></script>
+    <script src="js/capture_timestamp.js"></script>
+</html>
